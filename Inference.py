@@ -1,14 +1,3 @@
-# for distribution after applying | over &, rather than recursing to next child recurse using the same tree once again
-# eliminate redundancy in a = '~'+tree.left.op, tree.left.op = a
-# in move negation f'n change elif tree.left.left is None to else ? ~A, last leaf node ?
-# test A(x) and A(Apple) with only clause in sentences
-# optimize resolving 3-4 for loops ???
-# output of B(John,ALice) and ~B(John,Alice) ??
-# resolve output of A(x)|P(x) and ~P(x)|C(x) ???? have returned true , should keep this or discard ?
-# while resolving A V A = A only not A V A
-# unification of A(x) and ~A(x), result of unification ?
-
-
 import timeit
 import ply.lex as lex
 import ply.yacc as yacc
